@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipe Details | MRSA</title>
+  <!-- <link href="style.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<style>
+  @media screen and (max-width: 480px);
+
+  .container {
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+  }
+
+  .content {
+    max-width: 1500px;
+    width: 100%;
+  }
+
+
+  .title {
+    color: #ff6a00;
+    display: flex;
+    padding-top: 15px;
+    margin-left: 15px;
+    padding-bottom: 30px;
+  }
+
+  .head {
+    margin-left: 15px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px #fc036f solid;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+  .nav_bar {
+    margin-left: 9%;
+    color: #fc036f;
+    display: flex;
+    padding-bottom: 3%;
+    /* justify-content: space-between; */
+  }
+
+  .colorful {
+    background-color: #f2bbcb;
+  }
+
+
+
+  .first_nav {
+    text-decoration: none;
+    border-radius: 10px;
+    width: 180px;
+    justify-content: center;
+    float: right;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .first_nav:hover {
+    background-color: #edd5e0;
+  }
+
+  .sec_nav {
+    text-decoration: none;
+    border-radius: 10px;
+    width: 180px;
+    justify-content: center;
+    float: right;
+    font-size: 20px;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  a:visited {
+    color: #fc036f;
+  }
+
+  a:link {
+    color: #fc036f;
+  }
+
+  .sec_nav:hover {
+    background-color: #edd5e0;
+  }
+
+  .recipe_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .card {
+    /* margin-right: -200px; */
+    border-radius: 30px;
+    border: 3px #fc036f solid;
+    width: 35%;
+    height: 80%;
+    margin: 3% 2% 2% 2%;
+    text-align: center;
+    box-shadow: rgba(161, 84, 102, 0.35) 0px 5px 15px;
+  }
+
+  .card:hover {
+    background-color: #f7e8dc;
+  }
+
+  .c_img {
+    margin-top: 25px;
+    width: 60%;
+    height: 50%;
+  }
+
+  .last {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .rec_tit {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff6a00;
+  }
+
+  #btn {
+    position: relative;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    width: 25%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    color: #fc036f;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+  }
+
+  #btn:hover {
+    background-color: #f7cbd4;
+  }
+
+
+
+  .rec_title {
+    text-decoration: underline;
+    margin-left: 3%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    color: darkcyan;
+  }
+
+  .rec_det {
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 30%;
+    height: 30%;
+    border: 2px orange solid;
+    border-radius: 20px;
+  }
+
+  .how_to {
+    width: 20%;
+    border-radius: 15px;
+  }
+
+  .ing {
+    width: 20%;
+    border-radius: 15px;
+  }
+
+  table {
+    margin-right: 3%;
+    margin-bottom: 3%;
+  }
+
+  th {
+    background-color: rgba(194, 72, 119, 0.35);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+  }
+
+
+
+  .last {
+    margin-top: 5%;
+  }
+
+  .first_f {
+    background-color: #f5d6cb;
+    float: left;
+    width: 30%;
+    height: 30%;
+  }
+
+  .second_f {
+    background-color: #f5d6cb;
+    float: right;
+    width: 30%;
+    height: 30%;
+  }
+
+  .content_detail2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="colorful">
+        <div class="title">
+          <img class="logo" src="mrsa-removebg-preview.png">
+          <h1 class="head">Make Recipes Slay Again</h1>
+        </div>
+        <div class="nav_bar">
+          <div class="first_nav"><a href="index.html">All Recipes</a></div>
+          <div class="sec_nav"><a href="about.html">About MRSA!</a></div>
+        </div>
+      </div>
+      <hr>
+      <h2 class="rec_title">Green Goddes Smoothie Recipe</h2>
+      <div class="content_detail2">
+        <img class="rec_det" src="smoothie.webp">
+        <div class="table">
+          <table table border="2" cellpadding="20">
+            <thead>
+              <tr>
+                <th>Ingredients</th>
+                <th>How to?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="ing">
+                  <br>✭ 2 bananas, sliced
+                  <br>✭ 1 ripe avocado, stoned, peeled and chopped into chunks
+                  <br>✭ 1 small ripe mango, stoned, peeled and chopped into chunks
+                  <br>✭ 100g spinach (fresh or frozen)
+                  <br>✭ 250ml milk (unsweetened almond or coconut milk works well)
+                  <br>✭ 1 tbsp unsweetened almond or peanut butter
+                  <br>✭ 1 tbsp clear honey, agave or maple syrup (optional)<br>
+                  <br><b> For the seed mix</b>
+                  <br>✭ 1 tbsp chia seeds
+                  <br>✭ 1 tbsp linseeds
+                  <br>✭ 4 tbsp pumpkin seeds
+                  <br>✭ 4 tbsp sunflower seeds
+                  <br>✭ 4 tbsp coconut flakes
+                  <br>✭ 4 tbsp flaked almonds
+                  <br>✭ ¼ tsp ground cinnamon
+                  <br>✭ 2 tbsp clear honey, agave or maple syrup
+                </td>
+                <td class="how_to">
+                  <b>STEP 1</b><br>
+                  Slice the bananas and arrange over a small baking tray lined with parchment. Freeze for 2 hrs until
+                  solid. (You can now transfer the banana slices to a freezer bag and freeze for 3 months, or continue
+                  with the recipe.)
+
+                  <br><br><b>STEP 2</b><br>
+                  For the seed mix, heat oven to 180C/160C fan/gas 4 and line a baking tray with parchment. Tip the
+                  seeds, coconut and almonds into a bowl, add the cinnamon and drizzle over the honey, agave or maple
+                  syrup. Toss until everything is well coated, then scatter over the baking tray in an even layer. Bake
+                  for 10-15 mins, stirring every 5 mins or so, until the seeds are lightly toasted. Leave to cool. Will
+                  keep in an airtight container for up to 1 month.
+
+                  <br><br><b>STEP 3</b><br>
+                  Put the avocado, mango, spinach, milk, nut butter, frozen banana slices and honey (if using) in a
+                  blender and whizz to a thick smoothie consistency – you may have to scrape down the sides with a spoon
+                  a few times. Divide between two bowls and arrange the fruit on top. Scatter 1-2 tbsp of the seed mix
+                  over each bowl and eat straight away.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <form>
+            <input id="btn" type="button" value="Return to All Recipes!" onclick="history.back()">
+          </form>
+        </div>
+      </div>
+
+
+      <footer>
+        <div class="last">
+          <div class="first_f">
+            <p>08/ 07/ 2023</p>
+            <p>Hazal Nur Asma</p>
+            <p>hazalnurasma@ctrlfuture.com</p>
+          </div>
+          <img class="logo" src="ctrl.jpg">
+          <div class="second_f">
+            <p><b>Adress:</b> İzmir, Turkey</p>
+            <p>|</p>
+            <p>All rights deserved CTRL+ Future.</p>
+          </div>
+        </div>
+      </footer>
+</body>
+
+
+
+</html>

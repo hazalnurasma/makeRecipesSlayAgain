@@ -1,0 +1,29 @@
+Project Name: "Make Recipes Slay Again!"
+Project Owner: Hazal Nur ASMA
+Instructor: Mr. Yusuff
+Date: 07/08/2023
+
+1) How to open the project?
+-First, extract all the HTML files and photos from the zip and export them into a single file.
+First, you can open the index.html file. You will then be able to access all other HTML files by pressing the corresponding buttons in index.html.
+
+2-)Brief project description and details:
+-I developed this project using my knowledge of HTML and CSS.
+My goal was to develop a functional website displaying 6 different recipes.
+I made sure that the colors I used were compatible with the food industry.
+As said in the project guide, I coded the recipe cards, the home page (index.html) where all the recipes are displayed, and the about page.
+
+When you click on the "details" button under any recipe card on the main page, you can access the details of the relevant recipe. These details are "ingredients" and "how to".
+You can go back to all recipes with the button below the recipe details.
+You can see the footer section at the end of the pages.
+You can return to the main page at any time from the nav-bar on each page.
+
+3) Files:
+Main Page file - index.html
+CSS File - There is no seperate css file. I write css codes into html files in <style> tags.
+Subsections (Tab) Files - about.html, index.html
+Recipe pages - detal_1.html, detail_2.html, detail_3.html, detail_4.html, detail_5.html, detail_6.html
+Pictures=> They are located in zip file.
+
+
+THANK YOU.
